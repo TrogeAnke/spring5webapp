@@ -27,7 +27,7 @@ public class Spring5StepsBasicApplication {
 			System.out.println("binarySearch  = " + binarySearch);
 			System.out.println("binarySearch1 = " + binarySearch1);
 
-			int result = binarySearch.binarySearch(new int[]{5, 7, 8, 4}, 4);
+			int result = binarySearch.binarySearch(new int[]{7, 5, 8, 4}, 4);
 
 			System.out.println("Result is " + result);
 		}
